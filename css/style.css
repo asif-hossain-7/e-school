@@ -1,0 +1,260 @@
+/* ----------------------
+GOOGLE FONTS 
+---------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* ----------------------
+GLOBAL SETTINGS 
+---------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.btn {
+    padding: 8px 28px;
+    color: #FFFFFF;
+    background-color: #21B573;
+    border: 1px solid #21B573;
+    border-radius: 33px;
+    font-family: "Roboto", sans-serif;
+    transition-duration: .3s;
+}
+
+.btn:hover {
+    background-color: #FD511A;
+    color: #FFFFFF;
+}
+
+
+/* ----------------------
+HEADER SECTION 
+---------------------- */
+header {
+    background-color: #F0FFF0;
+}
+
+.nav-link {
+    color: #000000;
+    transition-duration: .3s;
+}
+
+.nav-link:hover {
+    color: #FD511A;
+}
+
+.sign-in-btn {
+    padding: 12px 28px;
+}
+
+
+/* ----------------------
+BANNER SECTION 
+---------------------- */
+#banner {
+    background-color: #F0FFF0;
+    height: 85vh;
+}
+
+#banner .content small {
+    color: #FD511A;
+    font-size: 16px;
+}
+
+#banner .content h1 {
+    color: #000000;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 10px 0 20px;
+}
+
+#banner .content p {
+    color: #6C6B6B;
+}
+
+.banner-btn {
+    margin-top: 15px;
+    padding: 12px 36px;
+    border-color: #000000;
+}
+
+.banner-btn:hover {
+    border-color: #000000;
+}
+
+
+/* ----------------------
+BOOKS SECTION 
+---------------------- */
+#books {
+    padding: 45px 0 100px;
+}
+
+#books .item {
+    background-color: #F8FFFB;
+    padding: 40px 20px;
+    margin: 0 15px;
+    border-radius: 10px;
+    transition-duration: .3s;
+}
+
+#books .item:hover {
+    box-shadow: 0px 20px 40px 0px #0000001A;
+
+}
+
+#books .item h5 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #413960;
+}
+
+#books .item h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #585859;
+    margin-top: 5px;
+}
+
+#books .item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+
+/* ----------------------
+COURSES SECTION 
+---------------------- */
+.section-heading h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #413960;
+}
+
+#courses .card {
+    margin: 60px 15px 80px;
+    padding: 25px 20px;
+    border: none;
+    box-shadow: 0px 10px 40px 0px #0000001A;
+    border-radius: 18px;
+}
+
+#courses .card .card-img-top {
+    border-radius: 11px;
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+    transition-duration: .3s;
+}
+
+#courses .card:hover .card-img-top {
+    -webkit-filter: sepia(0);
+    filter: sepia(0);
+}
+
+#courses .card .card-body {
+    padding: 0;
+}
+
+#courses .card .card-body p {
+    margin: 5px 0 15px;
+}
+
+#courses .card .card-body .btn {
+    margin-bottom: 20px;
+}
+
+#courses .card .card-footer {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+#courses .card .card-footer img {
+    width: 24px;
+    height: 24px;
+}
+
+
+/* ----------------------
+TESTIMONIAL SECTION 
+---------------------- */
+#testimonial .testimonial-image img {
+    width: 120px;
+    height: 120px;
+}
+
+
+/* ----------------------
+FOOTER SECTION 
+---------------------- */
+footer {
+    background-color: #282531;
+}
+
+.footer-top {
+    color: #ffffff;
+    padding: 55px 0 75px;
+}
+
+.footer-top .header{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-bottom p{
+    color: #CDCDCD;
+}
+
+.footer-bottom b{
+    transition-duration: .3s;
+}
+
+.footer-bottom p:hover b{
+    color: #FD511A;
+}
+
+.footer li{
+    margin-bottom: 10px;
+}
+
+.footer a{
+    color: #ffffff;
+    transition-duration: .3s;
+}
+
+.footer a:hover{
+    color: #FD511A;
+    padding-left: 10px;
+}
